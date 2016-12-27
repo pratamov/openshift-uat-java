@@ -8,6 +8,7 @@
 </head>
 <body>
 	<h1>Project UAT - Java Application</h1>
+	<h2>OpenShift</h2>
 	<a href="dbtest.jsp">Click here to test database</a>
 </body>
 </html>
