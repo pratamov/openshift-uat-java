@@ -15,10 +15,10 @@
 	<% String database = System.getenv("MYSQL_DATABASE"); %>
 	
 	<h1>Project UAT - Java Application</h1>
-	<% out.println("Hostname : " + hostname); %>
-	<% out.println("Username : " + username); %>
-	<% out.println("Password : " + password); %>
-	<% out.println("Database : " + database); %>
+	<% out.println("Hostname : " + hostname + "<br/>"); %>
+	<% out.println("Username : " + username + "<br/>"); %>
+	<% out.println("Password : " + password + "<br/>"); %>
+	<% out.println("Database : " + database + "<br/>"); %>
 	<%
 	try {
         String connectionURL = "jdbc:mysql://"+ hostname + "/" + database;
