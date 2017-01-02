@@ -32,6 +32,5 @@
         out.println("Connection failed : " + ex);
     }
 	%>
-	
 </body>
 </html>
