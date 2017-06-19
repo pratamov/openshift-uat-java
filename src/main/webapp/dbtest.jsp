@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<% String hostname = System.getenv("UATDB_SERVICE_HOST"); %>
+	<% String hostname = System.getenv("UATDB03_SERVICE_HOST"); %>
 	<% String username = System.getenv("MYSQL_USER"); %>
 	<% String password = System.getenv("MYSQL_PASSWORD"); %>
 	<% String database = System.getenv("MYSQL_DATABASE"); %>
