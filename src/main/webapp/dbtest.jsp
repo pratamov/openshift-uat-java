@@ -9,10 +9,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<% String hostname = System.getenv("MARIADB_SERVICE_HOST"); %>
-	<% String username = System.getenv("MARIADB_USER"); %>
-	<% String password = System.getenv("MARIADB_PASSWORD"); %>
-	<% String database = System.getenv("MARIADB_DATABASE"); %>
+	<% String hostname = System.getenv("UATDB_SERVICE_HOST"); %>
+	<% String username = System.getenv("MYSQL_USER"); %>
+	<% String password = System.getenv("MYSQL_PASSWORD"); %>
+	<% String database = System.getenv("MYSQL_DATABASE"); %>
 	
 	<h1>Project UAT - Java Application</h1>
 	<% out.println("Hostname : " + hostname + "<br/>"); %>
